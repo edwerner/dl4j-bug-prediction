@@ -1,0 +1,32 @@
+TRIAL 1
+========
+
+Build model....
+
+
+========================Evaluation Metrics========================
+ # of classes:    3
+ Accuracy:        0.0036
+ Precision:       0.1990	(1 class excluded from average)
+ Recall:          0.0198
+ F1 Score:        0.0516	(1 class excluded from average)
+Precision, recall & F1: macro-averaged (equally weighted avg. of 3 classes)
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+  0  1  2
+----------
+  0  0  9 | 0 = 0
+  0  0  4 | 1 = 1
+  2  0 39 | 2 = 2
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+
+
+
+TRIAL 2
+========

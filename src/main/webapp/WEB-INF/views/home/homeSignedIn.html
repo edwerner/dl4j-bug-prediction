@@ -19,6 +19,9 @@
     <p class="lead text-center">
         Welcome to the Spring <span th:text="${springVersion}">0.0.0</span> MVC Quickstart application!
     </p>
+    <tr th:each="rd: ${rawData}">
+    	<td th:text="${rd}" />
+	</tr>
     <div th:replace="fragments/layout :: footer"></div>
 </div>
 </body>
